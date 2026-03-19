@@ -1,0 +1,11 @@
+x = "False"
+y = 18
+print("my name is",x)
+print("and i am",y)
+name = input("enter your name: ")
+print("\nHello", name, "\nwelcome to codingal")
+
+import keyword
+
+print("Python Keyboards are...\n")
+print(keyword.kwlist)
