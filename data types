@@ -1,0 +1,39 @@
+a = 5
+print("type of a: ", type (a))
+
+b = 2.5
+print("type of b: ", type (b))
+
+c = "coding"
+print("type of c: ", type (c))
+
+d = True
+print("type of d: ", type (d))
+
+
+
+name = "penguin"
+age = 15
+is_student= True
+weight = 38.5
+
+print("age :", age)
+print("Data type of age is", type(age))
+
+print("weight :", weight)
+print("Data type of age is", type (weight))
+
+print("\n After Type Casting...")
+age = str(age)
+print(age)
+print("Data type of age is", type(age))
+
+
+
+
+text = str(input("enter a string"))
+
+revText = text[ ::-1]
+text = revText
+
+print(text)
