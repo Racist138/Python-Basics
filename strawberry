@@ -1,0 +1,20 @@
+Amount = int(input("Please Enter Amount For Withdraw :"))
+
+note_1 = Amount//100
+note_2 = (Amount%100)//50
+note_3 = ((Amount%100)%50)//10
+
+print("note of 100 rupee ", note_1)
+print("note of 50 rupees" , note_2)
+print("note of 10 rupees" , note_3)
+
+
+print("Enter Marks Obtained in 4 Subjects")
+math = int(input("math"))
+science = int(input("science"))
+hindi = int(input("hindi"))
+english = int(input("english"))
+sum = math+science+hindi+english
+
+perc = (sum/4)
+print("the percentage is", perc)
