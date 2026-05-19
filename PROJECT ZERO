@@ -1,0 +1,18 @@
+print("Welcome to the Number Guessing Game!")
+print("I'm thinking of a number between 1 and 50.")
+
+while attempts > 0:
+    guess = int(input("Enter your guess: "))
+    
+    if difference > 20:
+        print("bleh your cold like bro be better skill issue ngl")
+    elif difference > 10:
+        print ("ok bro your close")
+    elif difference > 5:
+        print ("warm, i aint got nothing to say to u")
+    else:
+        print("hot")
+    
+    if attempts == 0:
+        print("out of attempts how stupid are u")
+        print("ze secret number was", )
